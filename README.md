@@ -10,8 +10,8 @@ Este projeto é uma aplicação Spring Boot que utiliza uma arquitetura de micro
 - PostgreSQL
 - Docker
 - Maven
-- Map Struct
-- Rabbit MQ
+- MapStruct
+- RabbitMQ
 - Amazon SNS
 
 ## Pré-requisitos
@@ -21,7 +21,7 @@ Este projeto é uma aplicação Spring Boot que utiliza uma arquitetura de micro
 
 ## Configuração do Banco de Dados com Docker
 
-## Passo 1: Criar um banco de dados PostgreSQL com Docker
+### Passo 1: Criar um banco de dados PostgreSQL com Docker
 
 1. **Instale o Docker**: Se ainda não tiver o Docker instalado, baixe e instale-o a partir do [site oficial](https://www.docker.com/products/docker-desktop).
 
@@ -32,9 +32,9 @@ Este projeto é uma aplicação Spring Boot que utiliza uma arquitetura de micro
     services:
       db:
         image: postgres:latest
-        container_name: postgres_sistema_vendas
+        container_name: postgres_proposta_db
         environment:
-          POSTGRES_DB: sistema_vendas
+          POSTGRES_DB: propostadb
           POSTGRES_USER: seu_usuario
           POSTGRES_PASSWORD: sua_senha
         ports:
@@ -52,9 +52,9 @@ Este projeto é uma aplicação Spring Boot que utiliza uma arquitetura de micro
     docker-compose up -d
     ```
 
-    Esse comando vai baixar a imagem do PostgreSQL (se ainda não tiver sido baixada) e iniciar um contêiner com o banco de dados `sistema_vendas`, utilizando o usuário e a senha especificados.
+    Esse comando vai baixar a imagem do PostgreSQL (se ainda não tiver sido baixada) e iniciar um contêiner com o banco de dados `propostadb`, utilizando o usuário e a senha especificados.
 
-## Passo 2: Configurar as credenciais de acesso no `application.properties`
+### Passo 2: Configurar as credenciais de acesso no `application.properties`
 
 1. **Localize o arquivo `application.properties`**: Geralmente, este arquivo está no diretório `src/main/resources` do seu projeto Spring Boot.
 
@@ -79,8 +79,6 @@ Este projeto é uma aplicação Spring Boot que utiliza uma arquitetura de micro
 2. Configuramos o arquivo `application.properties` para que a aplicação Spring Boot possa se conectar ao banco de dados PostgreSQL.
 
 Agora, você deve estar pronto para iniciar sua aplicação Spring Boot e conectá-la ao banco de dados PostgreSQL em execução no contêiner Docker.
-
-````
 
 ## Contribuição
 
