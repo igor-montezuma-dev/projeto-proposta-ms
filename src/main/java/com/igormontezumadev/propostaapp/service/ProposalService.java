@@ -13,7 +13,7 @@ public class ProposalService {
     private ProposalRepository proposalRepository;
 
     public ProposalResponseDTO createProposal( ProposalRequestDTO requestDto) {
-        proposalRepository.save()
+        //proposalRepository.save();
         return null;
     }
 }
