@@ -18,7 +18,7 @@ Este projeto é uma aplicação Spring Boot que utiliza uma arquitetura de micro
 
 ## Configuração do Banco de Dados
 
-# Configuração do Banco de Dados com Docker
+## Configuração do Banco de Dados com Docker
 
 ## Passo 1: Criar um banco de dados PostgreSQL com Docker
 
@@ -88,11 +88,6 @@ Agora, você deve estar pronto para iniciar sua aplicação Spring Boot e conect
 3. Commite suas alterações (`git commit -m 'Adiciona sua feature'`)
 4. Faça um push para a branch (`git push origin feature/sua-feature`)
 5. Abra um Pull Request
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
 ---
 
 Feito por [Igor Montezuma](https://github.com/igor-montezuma-dev)
