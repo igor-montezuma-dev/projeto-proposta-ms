@@ -10,13 +10,14 @@ Este projeto é uma aplicação Spring Boot que utiliza uma arquitetura de micro
 - PostgreSQL
 - Docker
 - Maven
+- Map Struct
+- Rabbit MQ
+- Amazon SNS
 
 ## Pré-requisitos
 
 - JDK 17 ou superior
 - PostgreSQL (com banco de dados criado)
-
-## Configuração do Banco de Dados
 
 ## Configuração do Banco de Dados com Docker
 
