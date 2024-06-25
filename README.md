@@ -89,6 +89,11 @@ Agora, você deve estar pronto para iniciar sua aplicação Spring Boot e conect
 3. Commite suas alterações (`git commit -m 'Adiciona sua feature'`)
 4. Faça um push para a branch (`git push origin feature/sua-feature`)
 5. Abra um Pull Request
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
 ---
 
 Feito por [Igor Montezuma](https://github.com/igor-montezuma-dev)
